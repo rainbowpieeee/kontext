@@ -1049,6 +1049,10 @@ ol {
   border-radius: 0;
   align-self: flex-start;
 }
+
+.u-btn-p {
+  padding: 0;
+}
 .u-btn:focus,
 .u-btn:active:focus,
 .u-btn.active:focus {
@@ -22510,6 +22514,7 @@ h6 {
   color: #111111;
   background-color: #ffffff;
   --effect-scale: 1.1;
+  max-width: 1440px;
 }
 /*end-variables color*/
 /*begin-variables font*/
@@ -38485,11 +38490,12 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
-        background-image: url("images/1.svg");
-        background-size: cover;
-        background-position: top left;
-        background-repeat: repeat;
-        background-attachment: scroll;
+          background-image: url("images/бг-2.svg");
+          background-size: cover;
+          background-position: top;
+          background-repeat: repeat;
+          background-attachment: scroll;
+          margin: auto;
         }
         /** common-rules **/
 
